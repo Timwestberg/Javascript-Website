@@ -1,0 +1,114 @@
+/* Core Styles */
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Section navbar */
+
+#navbar ul {
+    background-color: rgba(94, 168, 173, 0.733);
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    border: groove;
+    text-align: left;
+    width: 100%;
+    border-width: 5px;
+    border-color: rgba(191, 131, 247, 0.801);
+    list-style: none;
+    text-decoration: none;
+
+}
+#navbar li {
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+}
+
+#nav-header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* Section main*/
+
+.main-section {
+    margin: 0;
+    padding: 0;
+    color:red;
+    text-align: left;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.main_points{
+    list-style: none;
+
+
+}
+
+.bullet_points {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(28, 122, 28);
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+
+}
+
+/* examples */
+
+.example {
+    background-color: rgba(179, 174, 174, 0.808);
+    margin: 0;
+    padding: 20px ;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(191, 131, 247, 0.801);
+    list-style: none;
+
+}
+
+/* media Q*/
+
+@media (min-width: 700px) {
+
+ 
+ .section-nav {
+     float:left;
+     width: 49%;
+     padding-left: 1px;
+     border-width: 1px;
+     position:fixed;
+     padding: 0px;
+     margin: 0px;
+     font-size: 15px;
+
+ }
+
+ .main-section {
+ width: 50%;
+ float:right;
+     
+
+ }
+
+}
